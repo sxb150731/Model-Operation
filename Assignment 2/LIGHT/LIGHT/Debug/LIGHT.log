@@ -1,0 +1,33 @@
+﻿生成启动时间为 3/29/2017 11:53:17。
+     1>项目“C:\Users\sxb15\Desktop\LIGHT\LIGHT\LIGHT.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Software\openGL\AntTweakBar\include /IC:\Software\openGL\glm /IC:\Software\openGL\glfw\include /IC:\Software\openGL\glew\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\sxb15\desktop\light\light\main.cpp(22): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\sxb15\desktop\light\light\shader.h(74): warning C4101: “success”: 未引用的局部变量
+     1>c:\users\sxb15\desktop\light\light\shader.h(75): warning C4101: “infoLog”: 未引用的局部变量
+     1>c:\users\sxb15\desktop\light\light\tweakbar.h(36): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sxb15\Desktop\LIGHT\Debug\LIGHT.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Software\openGL\AntTweakBar\lib /LIBPATH:"C:\Software\openGL\glfw\lib-vc2012" /LIBPATH:C:\Software\openGL\glew\lib\Release\Win32 opengl32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sxb15\Desktop\LIGHT\Debug\LIGHT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sxb15\Desktop\LIGHT\Debug\LIGHT.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，该符号在函数 "void __cdecl computeMatricesFromInputs(struct GLFWwindow *)" (?computeMatricesFromInputs@@YAXPAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSetKeyCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPAUCTwBar@@PAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSetCharCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPAUCTwBar@@PAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSetMouseButtonCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPAUCTwBar@@PAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPAUCTwBar@@PAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPAUCTwBar@@PAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，该符号在函数 "void __cdecl computeMatricesFromInputs(struct GLFWwindow *)" (?computeMatricesFromInputs@@YAXPAUGLFWwindow@@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，该符号在函数 _main 中被引用
+     1>C:\Users\sxb15\Desktop\LIGHT\Debug\LIGHT.exe : fatal error LNK1120: 15 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\sxb15\Desktop\LIGHT\LIGHT\LIGHT.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.97
