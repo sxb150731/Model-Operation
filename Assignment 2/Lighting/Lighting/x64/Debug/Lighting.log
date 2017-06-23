@@ -1,0 +1,49 @@
+﻿Main.obj : error LNK2019: 无法解析的外部符号 glewInit，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwInit，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwGetKey，该符号在函数 "void __cdecl computeMatricesFromInputs(struct GLFWwindow *)" (?computeMatricesFromInputs@@YAXPEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSetKeyCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPEAUCTwBar@@PEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSetCharCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPEAUCTwBar@@PEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSetMouseButtonCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPEAUCTwBar@@PEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPEAUCTwBar@@PEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，该符号在函数 "void __cdecl callATB(struct CTwBar *,struct GLFWwindow *)" (?callATB@@YAXPEAUCTwBar@@PEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwGetTime，该符号在函数 "void __cdecl computeMatricesFromInputs(struct GLFWwindow *)" (?computeMatricesFromInputs@@YAXPEAUGLFWwindow@@@Z) 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，该符号在函数 main 中被引用
+Main.obj : error LNK2001: 无法解析的外部符号 __glewBindBuffer
+Main.obj : error LNK2001: 无法解析的外部符号 __glewBufferData
+Main.obj : error LNK2001: 无法解析的外部符号 __glewDeleteBuffers
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGenBuffers
+Main.obj : error LNK2001: 无法解析的外部符号 __glewAttachShader
+Main.obj : error LNK2001: 无法解析的外部符号 __glewCompileShader
+Main.obj : error LNK2001: 无法解析的外部符号 __glewCreateProgram
+Main.obj : error LNK2001: 无法解析的外部符号 __glewCreateShader
+Main.obj : error LNK2001: 无法解析的外部符号 __glewDeleteProgram
+Main.obj : error LNK2001: 无法解析的外部符号 __glewDeleteShader
+Main.obj : error LNK2001: 无法解析的外部符号 __glewEnableVertexAttribArray
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGetProgramInfoLog
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGetProgramiv
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGetShaderInfoLog
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGetShaderiv
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGetUniformLocation
+Main.obj : error LNK2001: 无法解析的外部符号 __glewLinkProgram
+Main.obj : error LNK2001: 无法解析的外部符号 __glewShaderSource
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUniform1i
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUniform3f
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUniform4f
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUniform4fv
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUniformMatrix4fv
+Main.obj : error LNK2001: 无法解析的外部符号 __glewUseProgram
+Main.obj : error LNK2001: 无法解析的外部符号 __glewVertexAttribPointer
+Main.obj : error LNK2001: 无法解析的外部符号 __glewBindVertexArray
+Main.obj : error LNK2001: 无法解析的外部符号 __glewDeleteVertexArrays
+Main.obj : error LNK2001: 无法解析的外部符号 __glewGenVertexArrays
+Main.obj : error LNK2001: 无法解析的外部符号 glewExperimental
+C:\Software\OpenGL\glfw\lib-vc2015\glfw3.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+C:\Software\OpenGL\glew\lib\Release\Win32\glew32s.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+C:\Software\OpenGL\AntTweakBar\lib\AntTweakBar.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+C:\Users\sxb15\Google Drive\UTD\2017Spring\CS6366 Computer Graphics\Assignment\Assignment 2\Lighting\x64\Debug\Lighting.exe : fatal error LNK1120: 45 个无法解析的外部命令
