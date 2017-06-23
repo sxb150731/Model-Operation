@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Textures.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\shader.h(84): warning C4101: “infoLog”: 未引用的局部变量
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\shader.h(83): warning C4101: “success”: 未引用的局部变量
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(82): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(92): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(102): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\light.h(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\tweakbar.h(38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\main.cpp(84): warning C4101: “tangentbuffer”: 未引用的局部变量
+c:\users\sxb15\google drive\utd\2017spring\cs6366 computer graphics\assignment\assignment 3\opengl_program1\opengl_program1\main.cpp(85): warning C4101: “bitangentbuffer”: 未引用的局部变量
+  opengl_program1.vcxproj -> C:\Users\sxb15\Google Drive\UTD\2017Spring\CS6366 Computer Graphics\Assignment\Assignment 3\opengl_program1\Debug\opengl_program1.exe
+  opengl_program1.vcxproj -> C:\Users\sxb15\Google Drive\UTD\2017Spring\CS6366 Computer Graphics\Assignment\Assignment 3\opengl_program1\Debug\opengl_program1.pdb (Full PDB)
